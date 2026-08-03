@@ -18,3 +18,8 @@ font-family: var(--Texto);
 
 
 }
+header{
+
+  background-color: var(--verde);
+
+}
