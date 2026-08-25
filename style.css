@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Germania+One&display=swap');
 
 :root{
-    --azul: #05668dff;
+    --azul: rgb(2, 79, 221);
 --branco: rgb(255, 255, 255);
---laranja: rgb(255, 166, 0);
---verde: rgb(23, 129, 1);
+--vermelho: rgb(204, 1, 1);
+--preto: rgb(0, 0, 0);
 
 --Titulo:"Germania One", system-ui;
 --Texto:"Bebas Neue", sans-serif;
@@ -18,7 +18,7 @@ padding: 0;
 
 
 body{
-background-color: var(--azul);
+background-color: var(--vermelho);
 font-family: var(--Texto);
 
 
@@ -26,7 +26,7 @@ font-family: var(--Texto);
 }
 header{
 
-  background-color: var(--laranja);
+  background-color: var(--vermelho);
 text-align: center;
 padding: 20px;
 
@@ -37,4 +37,24 @@ padding: 20px;
   width: 100%;
 
 
+}
+.caixa-conteudo{
+
+margin: 30px;
+border: 2px dotted;
+padding: 20px;
+text-align: center;
+
+}
+.caixa-conteudo{
+
+  font-family: var(--Titulo);
+font-size: 32px;
+color: var(--preto);
+
+}
+.conteudo-texto{
+
+  margin: 24px 0;
+  font-family: var(--Texto);
 }
